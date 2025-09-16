@@ -1,0 +1,19 @@
+{
+  "name": "k-nn",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js", 
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.13.5",
+    "@types/node": "^24.4.0",
+    "@types/pngjs": "^6.0.5",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  }
+}

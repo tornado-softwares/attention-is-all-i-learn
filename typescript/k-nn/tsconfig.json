@@ -1,0 +1,17 @@
+{
+  "ts-node": {
+    "swc": true,
+    "files": true, 
+  },
+    "compilerOptions": {
+      "rootDir": "./src",                                    
+      "outDir": "./dist", 
+      "target": "ESNext",                                   
+      "module": "NodeNext",                                                               
+      "strict": true,   
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "types": [ "node" ],
+      "strictNullChecks": true,
+  }
+}

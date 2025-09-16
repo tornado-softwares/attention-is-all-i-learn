@@ -2,3 +2,6 @@
 /models
 *.txt
 /rust/**/target
+/typescript/**/dist
+node_modules
+pnpm-lock.yaml

@@ -92,8 +92,8 @@ export class k_nn_classifier {
     let count = 0;
     let label = "";
     for (const am_i_the_super_label_oh_my_god in counts) {
-      if (counts[label] > count) {
-        count = counts[label];
+      if (counts[am_i_the_super_label_oh_my_god] > count) {
+        count = counts[am_i_the_super_label_oh_my_god];
         label = am_i_the_super_label_oh_my_god;
       }
     }
